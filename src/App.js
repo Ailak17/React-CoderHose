@@ -1,16 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-import NavBar from './components/NavVar';
+import NavBar from './NavBar/NavBar';
+import CardWidget from './CartWidget/CardWidget';
+import ItemListConteiner from './ItemListContainer/ItemListConteiner';
+
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NavBar />
-        <img src={logo} className="App-logo" alt="logo" />
-                
+        <NavBar/>
+        <CardWidget/>
       </header>
+      <ItemListConteiner greeting={'Bienvenido!'}/>
     </div>
   );
 }
