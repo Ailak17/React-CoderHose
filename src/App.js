@@ -1,8 +1,7 @@
 import './App.css';
-import NavBar from './NavBar/NavBar';
-import CardWidget from './CartWidget/CardWidget';
+import NavBar from './NavBar/Navbar';
 import ItemListConteiner from './ItemListContainer/ItemListConteiner';
-
+ 
 
 
 function App() {
@@ -10,9 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar/>
-        <CardWidget/>
       </header>
       <ItemListConteiner greeting={'Bienvenido!'}/>
+      
     </div>
   );
 }

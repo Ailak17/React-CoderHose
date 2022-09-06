@@ -1,0 +1,19 @@
+.contador{
+    background-color: rgb(215, 225, 236);
+}
+.contadorB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;    
+}
+.contadorB button {
+    width: 40px;
+    background-color: rgb(165, 111, 216);
+    margin: 15px;
+}
+.aac {
+    background-color: rgb(165, 111, 216);
+    margin: 20px;
+    font-size: 20px;
+}

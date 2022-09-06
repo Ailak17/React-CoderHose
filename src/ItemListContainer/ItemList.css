@@ -1,4 +1,7 @@
 .greeting {
     color:rgb(191, 130, 247);
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
 }

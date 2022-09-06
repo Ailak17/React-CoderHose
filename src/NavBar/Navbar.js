@@ -1,11 +1,15 @@
 import './NavBar.css'
+import CardWidget from '../CartWidget/CardWidget'
 const NavBar = () => {
-    return <div>
+    return <>
+    <div>
         <ul className='ull'>
             <li>Inicio</li>
             <li>Galeria</li>
             <li>Contactos</li>            
         </ul>
-    </div>;
-};
+    </div>
+    <CardWidget/>
+
+</>}
 export default NavBar;
