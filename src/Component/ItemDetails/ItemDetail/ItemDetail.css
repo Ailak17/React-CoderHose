@@ -1,0 +1,32 @@
+
+.cardi2{
+    border-style: dashed;
+    border-color: rgb(231, 243, 161);
+    background-color: rgb(215, 225, 236);
+    margin:80px 200px 20px 200px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardi1 {
+    display: grid;
+    grid-template-areas: "titulo titulo"
+    "imagen detalle"
+    "imagen precio";
+    
+}
+.imagen{
+    grid-area: imagen;
+    
+}
+.titulo{
+    grid-area: titulo;
+    color: rgb(125, 89, 160);
+    font-size: 40px;
+}
+.detalle{
+    grid-area:detalle;
+    padding: 1%;
+    color: rgb(125, 89, 160);
+}

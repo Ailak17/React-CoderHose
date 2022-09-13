@@ -9,7 +9,7 @@ const ItemCount = ({stock, initial}) => {
 
   return (
     <div className='contador'>
-        <h1 > Productos</h1>
+
         <div className='contadorB'>
             <button onClick={resta} d-inline-flex>-</button>
             <h3>{items}</h3>
