@@ -1,5 +1,10 @@
 .cardi {
     color: rgb(193, 63, 253);
     height: 300px;
-    
+    width: 25%;
+    border-style: solid;
+    border-color: rgb(238, 238, 170);
+    display: inline-block;
+    margin: 10px;
+    background-color: antiquewhite;
 }
