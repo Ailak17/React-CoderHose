@@ -11,7 +11,7 @@ const ItemCount = ({stock, initial}) => {
     <div className='contador'>
 
         <div className='contadorB'>
-            <button onClick={resta} d-inline-flex>-</button>
+            <button onClick={resta} >-</button>
             <h3>{items}</h3>
             <button onClick={suma}>+</button>
         </div>

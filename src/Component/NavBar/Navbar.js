@@ -9,8 +9,8 @@ const NavBar = () => {
             <img src={logo} className="logo" alt="logo" />
         </NavLink>
         <ul className='ull'>
-            <li>Inicio</li>
-            <li className="lista"><NavLink to={"/bordadosChicos"}>Bordados Chicos</NavLink></li> 
+        <li className="lista"><NavLink to={"/"}>Inicio</NavLink></li>
+            <li className="lista"><NavLink to={"/category/bordadosChicos"}>Bordados Chicos</NavLink></li> 
         </ul>
         <CardWidget/>
     </div>

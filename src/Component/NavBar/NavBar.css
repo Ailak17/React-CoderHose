@@ -29,3 +29,7 @@
     height: 40%;
     width:  40%;
 }
+.lista a {
+    text-decoration: none;
+    color: rgb(253, 122, 247);
+}
