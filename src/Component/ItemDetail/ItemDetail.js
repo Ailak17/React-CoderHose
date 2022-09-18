@@ -1,7 +1,8 @@
 import './ItemDetail.css'
 import ItemCount from '../ItemCount/ItemCount'
 
-const ItemDetail = ({lista}) => {    
+const ItemDetail = ({lista}) => {  
+  console.log(lista)  
   return (
     <div className='cardi2'>
         <div className="cardi1">

@@ -30,3 +30,6 @@
     padding: 1%;
     color: rgb(125, 89, 160);
 }
+.precio{
+    grid-area:precio;
+}
