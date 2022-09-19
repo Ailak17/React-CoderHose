@@ -10,7 +10,8 @@ const NavBar = () => {
         </NavLink>
         <ul className='ull'>
         <li className="lista"><NavLink to={"/"}>Inicio</NavLink></li>
-            <li className="lista"><NavLink to={"/category/bordadosChicos"}>Bordados Chicos</NavLink></li> 
+        <li className="lista"><NavLink to={"/category/bordadoChico"}>Bordados Chicos</NavLink></li> 
+        <li className="lista"><NavLink to={"/category/bordadoGrande"}>Bordados Grandes</NavLink></li>
         </ul>
         <CardWidget/>
     </div>

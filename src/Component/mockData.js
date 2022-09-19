@@ -4,7 +4,7 @@ const data = [{
     precio: 400,
     detalle: 'Bordado a mano con iman, ideal para colgar en la heladera y regalar! ',
     imagen: '../imagenes/levi.jpg',
-    category: 'bordadoChico'
+    category: 'bordadoGrande'
 },
 {
     id:2,
@@ -20,6 +20,6 @@ const data = [{
     precio: 400,
     detalle: 'Bordado a mano con iman, ideal para colgar en la heladera y regalar! ',
     imagen: '../imagenes/trosko.jpg',
-    category: 'bordadoChico'
+    category: 'bordadoGrande'
 }]
 export default data;

@@ -11,7 +11,7 @@ const ItemListConteiner = ({greeting}) => {
   const {categoryName} =useParams();
   useEffect (() => {
     if(categoryName){
-        const response = data.filter((response) => response.category === parseInt.categoryName)
+        const response = data.filter((response) => response.category === categoryName)
         setListaProductos(response);
     }else{
         getProducts.then((response) => {
