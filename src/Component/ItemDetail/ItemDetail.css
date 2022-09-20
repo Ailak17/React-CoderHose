@@ -3,7 +3,7 @@
     border-style: dashed;
     border-color: rgb(231, 243, 161);
     background-color: rgb(215, 225, 236);
-    margin:80px 200px 20px 200px;
+    margin:70px 150px 20px 150px;
     padding: 5%;
     display: flex;
     justify-content: center;
@@ -32,4 +32,15 @@
 }
 .precio{
     grid-area:precio;
+    color: rgb(125, 89, 160);
+    font-size: 30px;
+}
+.links{
+    text-decoration: none;
+    display: inline;
+    font-size: 30px;
+    border-style: dashed;
+    color: rgb(176, 101, 252);
+    background-color: rgb(198, 232, 255);
+    margin-left: 50px;
 }

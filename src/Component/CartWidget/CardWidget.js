@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 
 const CardWidget = () => {
   return (
-    <NavLink to={"/Carrito"}>
+    <NavLink to={"/cart"}>
       <img src={carrito} className="carrito" alt="logo" />
     </NavLink>
     

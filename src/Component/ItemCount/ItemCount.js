@@ -1,23 +1,33 @@
 import React, { useState } from 'react'
 import './style.css'
 
-const ItemCount = ({stock, initial}) => {
-    const [items, setItems] = useState(initial);
-    
-    const suma = () => stock > items && stock ? setItems(items + 1) : alert ('Superas el stock')
-    const resta = () => items > initial && stock ? setItems(items - 1) : alert ('No se puede estar en 0')
-
-  return (
+const ItemCount = ({setCount, count, stock}) => {
+  const onAdd = () => {
+    if (count === stock){
+      return;
+    }
+    setCount(count + 1 )
+  };
+  const onRemove = () => {
+    if (count === 1){
+      return;
+    }
+    setCount(count - 1 )
+  };
+  return(
     <div className='contador'>
-
+        
         <div className='contadorB'>
-            <button onClick={resta} >-</button>
-            <h3>{items}</h3>
-            <button onClick={suma}>+</button>
+            
+            <button onClick={onRemove} >-</button>
+            <h3>{count}</h3>
+            <button onClick={onAdd}>+</button>
         </div>
+        <h3 className='stocki'>Stock disponible: {stock}</h3>
         <button className='aac'>Agregar al carrito</button>     
     </div>
   )
-}
 
-export default ItemCount
+
+}
+export default ItemCount;
