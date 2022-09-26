@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState , useEffect } from 'react'
 import './style.css'
 
 const ItemCount = ({setCount, count, stock}) => {
@@ -16,9 +16,7 @@ const ItemCount = ({setCount, count, stock}) => {
   };
   return(
     <div className='contador'>
-        
         <div className='contadorB'>
-            
             <button onClick={onRemove} >-</button>
             <h3>{count}</h3>
             <button onClick={onAdd}>+</button>
@@ -30,3 +28,5 @@ const ItemCount = ({setCount, count, stock}) => {
 
 }
 export default ItemCount;
+
+
