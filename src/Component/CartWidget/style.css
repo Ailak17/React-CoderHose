@@ -1,5 +1,24 @@
+.carritoo{
+    display: flex;
+}
 .carrito{
-    height: 25%;
-    width: 25%;
     
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    justify-content: center;
+}
+.numeroCarrito{
+    color: rgb(255, 55, 212);
+    text-decoration: none;
+    justify-content: center;
+    font-size: 30px;
+    border-style:dashed;
+    border-radius: 30%;
+    border-color: rgb(194, 119, 255);
+    align-items: center;
+    margin: 15px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
