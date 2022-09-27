@@ -44,3 +44,8 @@
     background-color: rgb(198, 232, 255);
     margin-left: 50px;
 }
+.seguirComprando{
+    background-color: aquamarine;
+    font-size: 20px;
+    position: sticky;
+}

@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './Component/NavBar/Navbar';
 import ItemDetailContainer from './pages/ItemDetailContainer/ItemDetailContainer';
 import ItemListContainer from './pages/ItemListContainer/ItemListContainer';
+import Cart from './Component/Cart/Cart';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import { CartProvider } from './context/CartProvider';
 
@@ -14,7 +15,8 @@ function App() {
         <Routes>
             <Route path='/' element={<ItemListContainer greeting={"Bienvenidos a nuestra tienda"}/>}/>          
             <Route path='/detalles/:id' element={<ItemDetailContainer /> } /> 
-            <Route path='/category/:categoryName' element={<ItemListContainer/>}/>        
+            <Route path='/category/:categoryName' element={<ItemListContainer/>}/>
+            <Route path='/cart' element={<Cart/>}/>
         </Routes>
         </BrowserRouter>
       </CartProvider>

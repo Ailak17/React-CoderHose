@@ -3,6 +3,7 @@ import ItemCount from '../ItemCount/ItemCount'
 import { useState  } from 'react';
 import { useContext } from 'react';
 import { CartContext } from '../../context/CartContext';
+import { Link } from 'react-router-dom';
 
 const ItemDetail = ({lista}) => {  
   const [count, setCount] = useState(1) 
@@ -20,8 +21,11 @@ const ItemDetail = ({lista}) => {
             <h4 className='detalle'>{lista.detalle}</h4>
             <h3 className='precio'>Precio $ {lista.precio}</h3>
         </div>
+        <div>
         {cond ? <ItemCount stock= {lista.stock} setCount = {setCount} count= {count} /> : <h2> Agregado al carrito!  </h2>}
         <button onClick= {() => onAdd(lista) } className='links'>Agragar al carrito</button>
+        <Link to = '/'><button className='seguirComprando'>Seguir Comprando</button></Link>
+        </div>
   </div>)
 };
 export default ItemDetail;
