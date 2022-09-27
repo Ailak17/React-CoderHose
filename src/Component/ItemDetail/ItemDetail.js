@@ -13,6 +13,10 @@ const ItemDetail = ({lista}) => {
     addToCard (lista, count,)
     setCond(false)
   }
+  function clickeado (){
+    console.log('yendo al carrito')
+  }
+  const {cart} = useContext(CartContext);
   return (
     <div className='cardi2'>
         <div className="cardi1">
@@ -23,8 +27,14 @@ const ItemDetail = ({lista}) => {
         </div>
         <div>
         {cond ? <ItemCount stock= {lista.stock} setCount = {setCount} count= {count} /> : <h2> Agregado al carrito!  </h2>}
+        {cart.length > 0 ? 
+                        <Link to={"/cart"}>
+                            <button className="boton" onClick={clickeado} >Ir al carrito</button>
+                        </Link>
+                        : "" }
         <button onClick= {() => onAdd(lista) } className='links'>Agragar al carrito</button>
         <Link to = '/'><button className='seguirComprando'>Seguir Comprando</button></Link>
+          
         </div>
   </div>)
 };
