@@ -5,10 +5,10 @@
 <br/>
 <h3>¡Dejo un gif de presentación de la app web y mis redes para seguirme!</h3>
 
-### Author
+### Autora
 
-> Sofia Lacosta
-> Contacto: sofia.lacosta@hotmail.com > [Linkedin](https://www.linkedin.com/in/sofia-lacosta-7aba06234/)) 
+<h3> > Sofia Lacosta</h3>
+<h3> > Contacto: sofia.lacosta@hotmail.com > [Linkedin](https://www.linkedin.com/in/sofia-lacosta-7aba06234/)) </h3>
 
 ### Dejo el gif de presentación de flujo de mi e-commerce
 
