@@ -15,9 +15,9 @@
 ![gifreact](https://user-images.githubusercontent.com/104394423/196726714-f2c500c6-a891-4b17-b48d-3215208786a7.gif)
 
 
-### Librerias usadas en este proyecto
+### Librerías usadas en este proyecto
 
-| library                                                          | used                      |
+| Librerias                                                        | uso                       |
 | ---------------------------------------------------------------- | ------------------------- |
 | [ReactJs](https://es.reactjs.org/)                               | JavaScript framework      |
 | [Create React App](https://github.com/facebook/create-react-app) | Create React Project      |
