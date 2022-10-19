@@ -3,22 +3,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;    
 }
 .contadorB button {
-    width: 40px;
-    background-color: rgb(190, 163, 216);
+    width: 25px;
+    background-color:  rgb(238, 238, 170);
     margin: 10px;
+    border-color: rgb(233, 233, 233);
 }
-.aac {
-    background-color: rgb(190, 163, 216);
-    margin: 10px;
-    font-size: 20px;
-}
+
 .stocki{
-    font-size: 15px;
-    color: rgb(178, 142, 212);
-}
-.seVe{
-    display: none;
+    font-size: 20px;
+    color:  rgb(250, 164, 164);
 }

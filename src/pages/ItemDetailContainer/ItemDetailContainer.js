@@ -23,6 +23,7 @@ const ItemDetailContainer = () => {
 
 return (
     <div className="contenedorDetalle">
+        
         { product && <ItemDetail lista = {product} />}
     </div>
     )

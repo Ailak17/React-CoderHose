@@ -1,10 +1,10 @@
 .cardi {
-    color: rgb(193, 63, 253);
+    color:rgb(191, 130, 247);
     height: 300px;
     width: 25%;
     border-style: solid;
     border-color: rgb(238, 238, 170);
     display: inline-block;
     margin: 10px;
-    background-color: antiquewhite;
+    background-color: #f8efe4da;
 }

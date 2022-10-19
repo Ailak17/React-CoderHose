@@ -18,7 +18,7 @@ const ItemDetail = ({lista}) => {
   }
   const {cart} = useContext(CartContext);
   return (
-    <div className='cardi2'>
+    <div className="cardi2">
         <div className="cardi1">
             <h2 className='titulo'>{lista.titulo}</h2>
             <img className='imagen' width={'200px'} src= {lista.imagen} alt={lista.titulo}/>
@@ -26,13 +26,13 @@ const ItemDetail = ({lista}) => {
             <h3 className='precio'>Precio $ {lista.precio}</h3>
         </div>
         <div>
-        {cond ? <ItemCount stock= {lista.stock} setCount = {setCount} count= {count} /> : <h2> Agregado al carrito!  </h2>}
+        {cond ? <ItemCount className='stock' stock= {lista.stock} setCount = {setCount} count= {count} /> : <h2> Agregado al carrito!  </h2>}
         {cart.length > 0 ? 
                         <Link to={"/cart"}>
-                            <button className="boton" onClick={clickeado} >Ir al carrito</button>
+                            <button className="gotocart" onClick={clickeado} >Ir al carrito</button>
                         </Link>
                         : "" }
-        <button onClick= {() => onAdd(lista) } className='links'>Agragar al carrito</button>
+        <button onClick= {() => onAdd(lista) } className='links'>Agregar al carrito</button>
         <Link to = '/'><button className='seguirComprando'>Seguir Comprando</button></Link>
           
         </div>

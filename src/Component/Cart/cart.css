@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+.titulo1{
+    grid-area: titulo;
+    color:rgb(191, 130, 247); 
+    font-size: 25px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: row;
+}
+.carts {
+    background-color:  #f8efe4da;
+    border-style: solid;
+    border-radius: 6%;
+    border-color: rgb(238, 238, 170);
+    width:15%;
+    height: 22%;
+    margin-left: 10px;
+    display: grid;
+    grid-template-areas: "titulo2 "
+    "imagenc "
+    "preciou "
+    "cantidad"
+    "preciot"
+    "botonEliminar"
+    ;
+    
+}
+.imagenc{
+    grid-area: imagenc;
+    margin-left: 20%;
+}
+
+.titulo2{
+    grid-area: titulo2;
+    color:rgb(191, 130, 247); 
+    font-size: 20px;
+    text-align: center;
+}
+.preciou{
+
+    font-size: 15px;
+    grid-area:preciou;
+    color: rgb(176, 101, 252);
+}
+.preciot{
+    
+    font-size: 15px;
+    grid-area:preciot;
+    color: rgb(176, 101, 252);
+    
+}
+
+.cantidad{
+    grid-area:cantidad;
+    color: rgb(191, 130, 247);
+    font-size: 15px;
+    text-align: center;
+}
+.botonEliminar{
+    text-decoration: none;
+    font-size: 20px;
+    grid-area:botonEliminar;
+    color: rgb(176, 101, 252);
+    background-color:  rgb(238, 238, 170);
+    width: 80%;
+    border-color: rgb(233, 233, 233);
+    margin: 10%;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    border-top: black;
+}
+.nombre{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(211, 141, 207);
+    
+}
+.nombre input{
+    background-color:  rgb(247, 247, 233);
+    border-color: rgb(223, 184, 255);
+}
+.phone{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(211, 141, 207);
+}
+.phone input{
+    background-color:  rgb(247, 247, 233);
+    border-color: rgb(223, 184, 255);
+}
+.email{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(211, 141, 207);
+}
+.email input{
+    background-color:  rgb(247, 247, 233);
+    border-color: rgb(223, 184, 255);
+}
+.createO{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(176, 101, 252);
+    border-style: solid;
+    background-color:  rgb(238, 238, 170);
+    border-color: rgb(255, 125, 125);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.datos{
+    grid-area: titulo;
+    color:rgb(191, 130, 247); 
+    font-size: 25px;
+    text-align: center;
+}
+.vacio{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(211, 141, 207);
+}

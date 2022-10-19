@@ -58,6 +58,8 @@ const getProducts = () => {
   return (
     <>
     <h1 className='greeting' >{greeting}</h1>
+    
+    <h1 className='disponibles' > 🡫¡Nuestros bordados disponibles! 🡫 </h1>
     <ItemList lista={listaProductos}/>
     </>
   )
